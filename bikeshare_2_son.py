@@ -224,7 +224,7 @@ def user_stats(df, datafilter):
     print('\nUser year of birth statistics...\n')
     print('<Filter: {}>'.format(datafilter.title()))
     if 'Birth Year' in df.columns.values.tolist():
-        min_year = np.min(df['Birth Year'])
+        min_year = int(df['Birth Year'].min())
         max_year = np.max(df['Birth Year'])
         most_common_year= df['Birth Year'].mode()[0]
         print('Earliest year of birth :    {:.0f}\nRecent year of birth :      {:.0f}\nMost common year of birth : {:.0f}'.format(min_year, max_year, most_common_year))
