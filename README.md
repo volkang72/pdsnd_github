@@ -5,7 +5,7 @@
 Bikeshare data
 
 ### Description
-Bikeshare statistics for Chicago,New York City and Washington
+Bikeshare statistics for *Chicago*,*New York City* and *Washington*
 
 ### Files used
 chicago.csv
